@@ -1,0 +1,140 @@
+Actúa como un diseñador UX/UI y desarrollador Frontend Senior.
+
+Crea una landing page moderna y profesional para un proyecto llamado "EcoCycle Hub".
+
+## Sobre el proyecto
+
+EcoCycle Hub es una iniciativa de sostenibilidad que transforma residuos orgánicos en compost y convierte ese proceso en contenido educativo sobre compostaje, reciclaje y economía circular.
+
+La página debe transmitir:
+
+- Sostenibilidad
+- Innovación
+- Educación ambiental
+- Impacto positivo
+- Tecnología verde
+
+## Tecnologías
+
+- HTML5
+- CSS3
+- JavaScript Vanilla
+
+No utilizar backend.
+No utilizar base de datos.
+No utilizar frameworks.
+
+Todo debe estar en:
+
+- index.html
+- styles.css
+- script.js
+
+## Diseño
+
+Estilo moderno tipo startup.
+
+Inspiración:
+- Sitios SaaS modernos
+- Diseño limpio
+- Mucho espacio en blanco
+- Animaciones suaves
+- Responsive para móvil y desktop
+
+Paleta de colores:
+
+- Verde oscuro (#2E7D32)
+- Verde claro (#66BB6A)
+- Blanco
+- Gris claro
+
+Tipografía:
+- Poppins o Inter
+
+## Secciones
+
+### Hero
+
+Título:
+"Transformamos residuos en conocimiento sostenible"
+
+Subtítulo:
+"Aprende compostaje, reciclaje y sostenibilidad mediante contenido práctico y experiencias reales."
+
+Botones:
+- Conoce más
+- Únete a la comunidad
+
+### Problema
+
+Explicar brevemente:
+
+- Contaminación por residuos orgánicos
+- Emisión de gases contaminantes
+- Falta de educación ambiental
+
+### Cómo funciona
+
+Mostrar visualmente:
+
+1. Recolección
+2. Compostaje
+3. Transformación en compost
+4. Creación de contenido educativo
+5. Impacto ambiental
+
+### Impacto
+
+Mostrar tarjetas con:
+
+- Reducción de residuos
+- Menor contaminación
+- Educación ambiental
+- Economía circular
+
+### ODS
+
+Mostrar los ODS:
+
+- ODS 4
+- ODS 8
+- ODS 11
+- ODS 12
+- ODS 13
+- ODS 17
+
+Con iconos y diseño moderno.
+
+### Comunidad
+
+Sección explicando:
+
+- Videos educativos
+- Tips ecológicos
+- Talleres
+- Comunidad online
+
+### CTA Final
+
+Título:
+"Únete al cambio"
+
+Botón:
+"Comenzar ahora"
+
+### Footer
+
+- Redes sociales
+- Correo de contacto
+- Derechos reservados
+
+## Requisitos visuales
+
+- Animaciones suaves al hacer scroll
+- Efectos hover elegantes
+- Diseño premium
+- Responsive
+- Buenas prácticas de accesibilidad
+- Código limpio y comentado
+
+Genera el proyecto completo listo para abrir en un navegador.

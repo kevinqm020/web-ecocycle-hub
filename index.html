@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EcoCycle Hub – Transformamos residuos orgánicos en compost y conocimiento sostenible. Aprende sobre compostaje, reciclaje y economía circular." />
+  <title>EcoCycle Hub | Conocimiento Sostenible</title>
+
+  <!-- Fuente Poppins desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVEGACIÓN ========== -->
+  <header class="navbar" role="banner">
+    <nav class="nav-container" aria-label="Navegación principal">
+      <a href="#hero" class="nav-logo" aria-label="EcoCycle Hub inicio">
+        <span class="logo-icon" aria-hidden="true">♻</span>
+        <span class="logo-text">EcoCycle<strong>Hub</strong></span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#problema" class="nav-link">El Problema</a></li>
+        <li><a href="#como-funciona" class="nav-link">Cómo Funciona</a></li>
+        <li><a href="#impacto" class="nav-link">Impacto</a></li>
+        <li><a href="#ods" class="nav-link">ODS</a></li>
+        <li><a href="#comunidad" class="nav-link">Comunidad</a></li>
+        <li><a href="#cta" class="nav-link nav-cta">Únete</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-text fade-in">
+          <span class="hero-badge">🌱 Sostenibilidad · Educación · Impacto</span>
+          <h1 id="hero-title">
+            Transformamos residuos en
+            <span class="text-gradient">conocimiento sostenible</span>
+          </h1>
+          <p class="hero-subtitle">
+            Aprende compostaje, reciclaje y sostenibilidad mediante contenido práctico y experiencias reales.
+          </p>
+          <div class="hero-actions">
+            <a href="#como-funciona" class="btn btn-primary">
+              <span>Conoce más</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#comunidad" class="btn btn-secondary">Únete a la comunidad</a>
+          </div>
+          <div class="hero-stats" role="list">
+            <div class="stat" role="listitem">
+              <strong class="stat-number" data-target="2500">0</strong>
+              <span class="stat-label">kg de residuos procesados</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat" role="listitem">
+              <strong class="stat-number" data-target="1200">0</strong>
+              <span class="stat-label">personas educadas</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat" role="listitem">
+              <strong class="stat-number" data-target="48">0</strong>
+              <span class="stat-label">talleres realizados</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual fade-in delay-300" aria-hidden="true">
+          <div class="hero-image-wrapper">
+            <img src="imagenes/imagen-01.jpg" alt="Proceso de compostaje EcoCycle Hub" class="hero-img" loading="eager" />
+            <div class="hero-card floating card-1">
+              <span class="card-icon">🌿</span>
+              <div>
+                <strong>Compost activo</strong>
+                <p>Transformación en curso</p>
+              </div>
+            </div>
+            <div class="hero-card floating card-2">
+              <span class="card-icon">📊</span>
+              <div>
+                <strong>CO₂ reducido</strong>
+                <p>+320 kg este mes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ========== EL PROBLEMA ========== -->
+    <section class="problema" id="problema" aria-labelledby="problema-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">El desafío global</span>
+          <h2 id="problema-title">Un problema que no podemos ignorar</h2>
+          <p>Cada año millones de toneladas de residuos orgánicos contaminan nuestro planeta sin que exista suficiente educación para cambiarlo.</p>
+        </div>
+
+        <div class="problema-grid">
+          <!-- Tarjeta 1 -->
+          <article class="problema-card reveal" aria-label="Contaminación por residuos">
+            <div class="problema-icon-wrap" aria-hidden="true">
+              <svg class="problema-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="30" fill="#FFEBEE"/>
+                <path d="M20 44c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="#E53935" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M32 20v8M28 24l4-4 4 4" stroke="#E53935" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="32" cy="44" r="3" fill="#E53935"/>
+              </svg>
+            </div>
+            <h3>Contaminación de residuos</h3>
+            <p>El 60 % de los residuos sólidos son orgánicos y terminan en vertederos, generando lixiviados que contaminan suelo y agua.</p>
+            <div class="problema-stat">
+              <strong>~2.000 millones</strong> de toneladas de residuos sólidos anuales
+            </div>
+          </article>
+
+          <!-- Tarjeta 2 -->
+          <article class="problema-card reveal delay-200" aria-label="Emisión de gases">
+            <div class="problema-icon-wrap" aria-hidden="true">
+              <svg class="problema-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="30" fill="#FFF3E0"/>
+                <path d="M20 42c4-8 8-4 12-12s8-8 12-4" stroke="#FB8C00" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M16 48c4-10 10-6 14-14s10-10 14-4" stroke="#FB8C00" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+                <circle cx="32" cy="18" r="4" fill="#FB8C00"/>
+              </svg>
+            </div>
+            <h3>Gases de efecto invernadero</h3>
+            <p>La descomposición de residuos orgánicos sin control libera metano, un gas 25 veces más dañino que el CO₂ para el clima.</p>
+            <div class="problema-stat">
+              <strong>5 %</strong> de las emisiones globales de GEI provienen de vertederos
+            </div>
+          </article>
+
+          <!-- Tarjeta 3 -->
+          <article class="problema-card reveal delay-400" aria-label="Falta de educación ambiental">
+            <div class="problema-icon-wrap" aria-hidden="true">
+              <svg class="problema-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="30" fill="#E8F5E9"/>
+                <path d="M22 42h20M27 34h10M32 18v8" stroke="#2E7D32" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="32" cy="14" r="4" fill="#2E7D32"/>
+                <path d="M24 28a8 8 0 0116 0" stroke="#2E7D32" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Falta de educación ambiental</h3>
+            <p>Menos del 30 % de la población conoce técnicas básicas de compostaje o reciclaje, perpetuando el ciclo de contaminación.</p>
+            <div class="problema-stat">
+              <strong>70 %</strong> de personas nunca ha recibido formación ambiental formal
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CÓMO FUNCIONA ========== -->
+    <section class="como-funciona" id="como-funciona" aria-labelledby="como-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Nuestro proceso</span>
+          <h2 id="como-title">Cómo funciona EcoCycle Hub</h2>
+          <p>Un ciclo completo que convierte residuos en aprendizaje y genera impacto real en la comunidad.</p>
+        </div>
+
+        <div class="proceso-wrapper">
+          <!-- Línea conectora -->
+          <div class="proceso-line" aria-hidden="true"></div>
+
+          <ol class="proceso-steps" aria-label="Pasos del proceso">
+            <li class="proceso-step reveal">
+              <div class="step-number" aria-hidden="true">01</div>
+              <div class="step-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" class="step-icon"><circle cx="24" cy="24" r="22" fill="#E8F5E9"/><path d="M14 34l4-8 6 4 6-10 4 14" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 38h28" stroke="#66BB6A" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <div class="step-content">
+                <h3>Recolección</h3>
+                <p>Recogemos residuos orgánicos de hogares, restaurantes y mercados locales con rutas optimizadas.</p>
+              </div>
+            </li>
+
+            <li class="proceso-step reveal delay-150">
+              <div class="step-number" aria-hidden="true">02</div>
+              <div class="step-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" class="step-icon"><circle cx="24" cy="24" r="22" fill="#E8F5E9"/><path d="M24 12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12" stroke="#2E7D32" stroke-width="2" stroke-linecap="round"/><path d="M30 12l6 4-4 6" stroke="#66BB6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="step-content">
+                <h3>Compostaje</h3>
+                <p>Aplicamos técnicas de compostaje aeróbico controlado para acelerar la descomposición de manera natural.</p>
+              </div>
+            </li>
+
+            <li class="proceso-step reveal delay-300">
+              <div class="step-number" aria-hidden="true">03</div>
+              <div class="step-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" class="step-icon"><circle cx="24" cy="24" r="22" fill="#E8F5E9"/><path d="M24 36c0-6 4-10 4-16a8 8 0 00-16 0c0 6 4 10 4 16h8z" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 36h8" stroke="#66BB6A" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <div class="step-content">
+                <h3>Transformación en compost</h3>
+                <p>Los residuos se convierten en abono orgánico de alta calidad, listo para enriquecer suelos y jardines.</p>
+              </div>
+            </li>
+
+            <li class="proceso-step reveal delay-450">
+              <div class="step-number" aria-hidden="true">04</div>
+              <div class="step-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" class="step-icon"><circle cx="24" cy="24" r="22" fill="#E8F5E9"/><rect x="12" y="18" width="24" height="16" rx="2" stroke="#2E7D32" stroke-width="2"/><path d="M18 18v-4a6 6 0 0112 0v4" stroke="#66BB6A" stroke-width="2" stroke-linecap="round"/><path d="M24 26v2" stroke="#2E7D32" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <div class="step-content">
+                <h3>Contenido educativo</h3>
+                <p>Documentamos cada etapa y creamos videos, guías y talleres accesibles para toda la comunidad.</p>
+              </div>
+            </li>
+
+            <li class="proceso-step reveal delay-600">
+              <div class="step-number" aria-hidden="true">05</div>
+              <div class="step-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" class="step-icon"><circle cx="24" cy="24" r="22" fill="#E8F5E9"/><path d="M24 14l2.47 7.6H34l-6.18 4.49 2.36 7.25L24 28.9l-6.18 4.44 2.36-7.25L14 21.6h7.53L24 14z" stroke="#2E7D32" stroke-width="2" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="step-content">
+                <h3>Impacto ambiental</h3>
+                <p>Medimos y comunicamos el impacto: CO₂ evitado, residuos desviados de vertederos y comunidades formadas.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Imagen del proceso -->
+        <div class="proceso-image reveal">
+          <img src="imagenes/imagen-02.jpg" alt="Equipo EcoCycle Hub trabajando en el proceso de compostaje" loading="lazy" />
+          <div class="proceso-image-caption">
+            <span>🌱</span> Nuestro equipo en acción — convertiendo residuos en recursos
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== IMPACTO ========== -->
+    <section class="impacto" id="impacto" aria-labelledby="impacto-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Resultados reales</span>
+          <h2 id="impacto-title">Nuestro impacto en números</h2>
+          <p>Cada kilogramo de compost y cada persona educada es una victoria para el planeta.</p>
+        </div>
+
+        <div class="impacto-grid">
+          <article class="impacto-card reveal" aria-label="Reducción de residuos">
+            <div class="impacto-card-header">
+              <div class="impacto-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" fill="none"><path d="M8 32L20 12l12 20H8z" stroke="#2E7D32" stroke-width="2" stroke-linejoin="round"/><path d="M14 32v-6h12v6" stroke="#66BB6A" stroke-width="2" stroke-linejoin="round"/></svg>
+              </div>
+              <span class="impacto-badge">Sostenibilidad</span>
+            </div>
+            <h3>Reducción de residuos</h3>
+            <p>Desviamos toneladas de residuos orgánicos de los vertederos, extendiendo su vida útil y reduciendo el colapso del sistema de gestión de basura.</p>
+            <ul class="impacto-list" aria-label="Beneficios de reducción de residuos">
+              <li>Menos residuos en vertederos</li>
+              <li>Suelos más ricos y fértiles</li>
+              <li>Ciclo cerrado de nutrientes</li>
+            </ul>
+          </article>
+
+          <article class="impacto-card reveal delay-200" aria-label="Menor contaminación">
+            <div class="impacto-card-header">
+              <div class="impacto-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="#2E7D32" stroke-width="2"/><path d="M14 20l4 4 8-8" stroke="#66BB6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span class="impacto-badge">Clima</span>
+            </div>
+            <h3>Menor contaminación</h3>
+            <p>Al compostar correctamente evitamos la liberación de metano y otros gases de efecto invernadero que aceleran el cambio climático.</p>
+            <ul class="impacto-list" aria-label="Beneficios de reducción de contaminación">
+              <li>CO₂ equivalente reducido</li>
+              <li>Sin lixiviados en el suelo</li>
+              <li>Aire y agua más limpios</li>
+            </ul>
+          </article>
+
+          <article class="impacto-card reveal delay-400" aria-label="Educación ambiental">
+            <div class="impacto-card-header">
+              <div class="impacto-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" fill="none"><path d="M8 28V16l12-6 12 6v12" stroke="#2E7D32" stroke-width="2" stroke-linejoin="round"/><path d="M14 28v-8h12v8" stroke="#66BB6A" stroke-width="2" stroke-linejoin="round"/><path d="M20 10v6" stroke="#2E7D32" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <span class="impacto-badge">Educación</span>
+            </div>
+            <h3>Educación ambiental</h3>
+            <p>Formamos ciudadanos con conciencia ecológica real, capaces de replicar prácticas sostenibles en sus hogares y comunidades.</p>
+            <ul class="impacto-list" aria-label="Beneficios de educación ambiental">
+              <li>Contenido accesible y práctico</li>
+              <li>Talleres presenciales y online</li>
+              <li>Comunidad activa de aprendizaje</li>
+            </ul>
+          </article>
+
+          <article class="impacto-card reveal delay-600" aria-label="Economía circular">
+            <div class="impacto-card-header">
+              <div class="impacto-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" fill="none"><path d="M20 8a12 12 0 110 24A12 12 0 0120 8z" stroke="#2E7D32" stroke-width="2"/><path d="M20 12v8l5 3" stroke="#66BB6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span class="impacto-badge">Economía</span>
+            </div>
+            <h3>Economía circular</h3>
+            <p>Cerramos el ciclo de los materiales: lo que antes era "basura" se convierte en insumo valioso para agricultores y jardines urbanos.</p>
+            <ul class="impacto-list" aria-label="Beneficios de economía circular">
+              <li>Compost para agricultores locales</li>
+              <li>Empleos verdes generados</li>
+              <li>Modelo replicable y escalable</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ODS ========== -->
+    <section class="ods" id="ods" aria-labelledby="ods-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Agenda 2030</span>
+          <h2 id="ods-title">Objetivos de Desarrollo Sostenible</h2>
+          <p>EcoCycle Hub contribuye directamente a 6 de los 17 Objetivos de Desarrollo Sostenible de la ONU.</p>
+        </div>
+
+        <div class="ods-grid">
+
+          <article class="ods-card reveal" aria-label="ODS 4 Educación de Calidad">
+            <div class="ods-number" aria-hidden="true" style="background: #C5192D;">4</div>
+            <div class="ods-content">
+              <h3>Educación de Calidad</h3>
+              <p>Promovemos el aprendizaje sobre sostenibilidad mediante contenido accesible para todas las edades.</p>
+            </div>
+            <div class="ods-tag" style="color: #C5192D; background: #fce8ea;">ODS 4</div>
+          </article>
+
+          <article class="ods-card reveal delay-100" aria-label="ODS 8 Trabajo Decente y Crecimiento Económico">
+            <div class="ods-number" aria-hidden="true" style="background: #A21942;">8</div>
+            <div class="ods-content">
+              <h3>Trabajo Decente</h3>
+              <p>Generamos empleos verdes inclusivos y fomentamos el emprendimiento sostenible en la economía circular.</p>
+            </div>
+            <div class="ods-tag" style="color: #A21942; background: #f9e8ef;">ODS 8</div>
+          </article>
+
+          <article class="ods-card reveal delay-200" aria-label="ODS 11 Ciudades y Comunidades Sostenibles">
+            <div class="ods-number" aria-hidden="true" style="background: #FD9D24;">11</div>
+            <div class="ods-content">
+              <h3>Ciudades Sostenibles</h3>
+              <p>Contribuimos a gestionar residuos urbanos de forma sostenible, mejorando la calidad de vida en las ciudades.</p>
+            </div>
+            <div class="ods-tag" style="color: #FD9D24; background: #fff5e6;">ODS 11</div>
+          </article>
+
+          <article class="ods-card reveal delay-300" aria-label="ODS 12 Producción y Consumo Responsables">
+            <div class="ods-number" aria-hidden="true" style="background: #BF8B2E;">12</div>
+            <div class="ods-content">
+              <h3>Consumo Responsable</h3>
+              <p>Educamos sobre producción y consumo responsable, reduciendo el desperdicio desde la fuente.</p>
+            </div>
+            <div class="ods-tag" style="color: #BF8B2E; background: #faf5e6;">ODS 12</div>
+          </article>
+
+          <article class="ods-card reveal delay-400" aria-label="ODS 13 Acción por el Clima">
+            <div class="ods-number" aria-hidden="true" style="background: #3F7E44;">13</div>
+            <div class="ods-content">
+              <h3>Acción por el Clima</h3>
+              <p>Reducimos emisiones de GEI mediante compostaje y sensibilizamos sobre la urgencia climática.</p>
+            </div>
+            <div class="ods-tag" style="color: #3F7E44; background: #e8f5ea;">ODS 13</div>
+          </article>
+
+          <article class="ods-card reveal delay-500" aria-label="ODS 17 Alianzas para los Objetivos">
+            <div class="ods-number" aria-hidden="true" style="background: #19486A;">17</div>
+            <div class="ods-content">
+              <h3>Alianzas para los Objetivos</h3>
+              <p>Construimos redes de colaboración entre comunidades, empresas e instituciones para escalar el impacto.</p>
+            </div>
+            <div class="ods-tag" style="color: #19486A; background: #e6eef5;">ODS 17</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMUNIDAD ========== -->
+    <section class="comunidad" id="comunidad" aria-labelledby="comunidad-title">
+      <div class="container">
+        <div class="comunidad-inner">
+          <div class="comunidad-text reveal">
+            <span class="section-tag section-tag-light">Aprende con nosotros</span>
+            <h2 id="comunidad-title">Una comunidad que aprende y actúa junta</h2>
+            <p>Conectamos a personas comprometidas con el planeta a través de contenido, experiencias y conversaciones que generan cambio real.</p>
+
+            <div class="comunidad-features">
+              <div class="feature-item" role="listitem">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="3" stroke="#2E7D32" stroke-width="2"/><path d="M12 12l8 4-8 4V12z" fill="#66BB6A"/></svg>
+                </div>
+                <div>
+                  <h3>Videos educativos</h3>
+                  <p>Tutoriales paso a paso sobre compostaje, lombricompost y agricultura urbana.</p>
+                </div>
+              </div>
+
+              <div class="feature-item" role="listitem">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 32 32" fill="none"><path d="M16 4C9.373 4 4 9.373 4 16c0 3.313 1.344 6.313 3.515 8.485L4 28l3.515-3.515A11.95 11.95 0 0016 28c6.627 0 12-5.373 12-12S22.627 4 16 4z" stroke="#2E7D32" stroke-width="2" stroke-linejoin="round"/><path d="M11 14h10M11 18h6" stroke="#66BB6A" stroke-width="2" stroke-linecap="round"/></svg>
+                </div>
+                <div>
+                  <h3>Tips ecológicos</h3>
+                  <p>Consejos rápidos y prácticos que puedes aplicar desde hoy en tu hogar.</p>
+                </div>
+              </div>
+
+              <div class="feature-item" role="listitem">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="18" rx="2" stroke="#2E7D32" stroke-width="2"/><path d="M10 8V6a2 2 0 014 0v2M18 8V6a2 2 0 014 0v2" stroke="#66BB6A" stroke-width="2" stroke-linecap="round"/><path d="M9 16h14M9 20h8" stroke="#2E7D32" stroke-width="2" stroke-linecap="round"/></svg>
+                </div>
+                <div>
+                  <h3>Talleres presenciales</h3>
+                  <p>Experiencias prácticas donde aprendes haciendo, junto a expertos y vecinos.</p>
+                </div>
+              </div>
+
+              <div class="feature-item" role="listitem">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="10" r="4" stroke="#2E7D32" stroke-width="2"/><circle cx="8" cy="22" r="3" stroke="#66BB6A" stroke-width="2"/><circle cx="24" cy="22" r="3" stroke="#66BB6A" stroke-width="2"/><path d="M12 16a6 6 0 018 0" stroke="#2E7D32" stroke-width="2" stroke-linecap="round"/><path d="M5 25a4 4 0 016-3.46M21 21.54A4 4 0 0127 25" stroke="#66BB6A" stroke-width="2" stroke-linecap="round"/></svg>
+                </div>
+                <div>
+                  <h3>Comunidad online</h3>
+                  <p>Grupo activo de personas que comparten logros, dudas y proyectos sostenibles.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="comunidad-visual reveal delay-300" aria-hidden="true">
+            <div class="comunidad-card-stack">
+              <div class="comm-card cc-1">
+                <div class="cc-avatar" style="background:#A5D6A7;">🧑‍🌾</div>
+                <div>
+                  <strong>María Gómez</strong>
+                  <p>Hice mi primera compostera casera con el tutorial ¡Increíble resultado!</p>
+                </div>
+              </div>
+              <div class="comm-card cc-2">
+                <div class="cc-avatar" style="background:#C8E6C9;">👩‍💻</div>
+                <div>
+                  <strong>Carlos R.</strong>
+                  <p>Los talleres cambiaron mi perspectiva sobre los residuos. Ahora enseño a mis vecinos.</p>
+                </div>
+              </div>
+              <div class="comm-card cc-3">
+                <div class="cc-avatar" style="background:#DCEDC8;">🌍</div>
+                <div>
+                  <strong>Ana Lucía</strong>
+                  <p>La comunidad online es un espacio increíble para aprender juntos cada día.</p>
+                </div>
+              </div>
+              <div class="comm-stats">
+                <div class="cs-item">
+                  <strong>+1.200</strong><span>miembros activos</span>
+                </div>
+                <div class="cs-item">
+                  <strong>4.9 ★</strong><span>valoración media</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA FINAL ========== -->
+    <section class="cta-final" id="cta" aria-labelledby="cta-title">
+      <div class="cta-bg-shapes" aria-hidden="true">
+        <div class="cta-shape cta-shape-1"></div>
+        <div class="cta-shape cta-shape-2"></div>
+      </div>
+      <div class="container cta-content">
+        <div class="reveal">
+          <span class="section-tag section-tag-white">¿Listo para actuar?</span>
+          <h2 id="cta-title">Únete al cambio</h2>
+          <p>El planeta no puede esperar. Sé parte de la solución hoy mismo y transforma tu manera de relacionarte con los residuos.</p>
+          <a href="#comunidad" class="btn btn-white">
+            <span>Comenzar ahora</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo footer-logo" aria-label="EcoCycle Hub inicio">
+          <span class="logo-icon" aria-hidden="true">♻</span>
+          <span class="logo-text">EcoCycle<strong>Hub</strong></span>
+        </a>
+        <p>Transformamos residuos orgánicos en compost y conocimiento sostenible para un futuro mejor.</p>
+        <address class="footer-contact">
+          <a href="mailto:hola@ecocyclehub.com" aria-label="Enviar correo a EcoCycle Hub">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 6 10-6"/></svg>
+            hola@ecocyclehub.com
+          </a>
+        </address>
+      </div>
+
+      <nav class="footer-nav" aria-label="Navegación del pie de página">
+        <div class="footer-col">
+          <h4>Proyecto</h4>
+          <ul>
+            <li><a href="#problema">El Problema</a></li>
+            <li><a href="#como-funciona">Cómo Funciona</a></li>
+            <li><a href="#impacto">Impacto</a></li>
+            <li><a href="#ods">ODS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Comunidad</h4>
+          <ul>
+            <li><a href="#comunidad">Videos</a></li>
+            <li><a href="#comunidad">Tips Ecológicos</a></li>
+            <li><a href="#comunidad">Talleres</a></li>
+            <li><a href="#comunidad">Foro Online</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+        <div class="social-links" role="list">
+          <a href="#" class="social-link" aria-label="Instagram de EcoCycle Hub" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="YouTube de EcoCycle Hub" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 9l6 3-6 3V9z" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook de EcoCycle Hub" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter/X de EcoCycle Hub" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0012 8v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> EcoCycle Hub. Todos los derechos reservados. Hecho con 💚 por el planeta.</p>
+    </div>
+  </footer>
+
+  <!-- Botón volver arriba -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver al inicio" hidden>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
